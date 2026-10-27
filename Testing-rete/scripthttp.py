@@ -1,7 +1,7 @@
 import http.client
 # inserisci l'ip di Metasploitable
 ip = input("Inserisci l'IP del web server: ")
-# inserisci il path della pagina da testare, quindi /phpMyAdmin/
+# inserisci il path della pagina da testare, per esempio /phpMyAdmin/
 path = input("Inserisci il Path: ")
 # lista dei verbi da provare
 verbi = ["GET", "POST", "PUT", "DELETE"]
@@ -15,8 +15,8 @@ for verbo in verbi:
     conn.request(verbo, path)
     risposta = conn.getresponse()
     print(verbo, risposta.status, risposta.reason)
-    # se il codice non è compreso tra 405, 404, 403 o 501, considero il verbo abilitato
-    if risposta.status not in [405, 404, 403, 501]:
+    # se il codice è compreso tra 200 e 299, considera i verbi abilitati (Il server ha accettato la richiesta e non ha dato errore)
+    if 200 <= risposta.status < 300:
         abilitati.append(verbo)
     conn.close()
 
