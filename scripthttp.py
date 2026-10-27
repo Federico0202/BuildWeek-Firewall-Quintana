@@ -15,8 +15,8 @@ for verbo in verbi:
     conn.request(verbo, path)
     risposta = conn.getresponse()
     print(verbo, risposta.status, risposta.reason)
-    # se il codice è diverso da 405, considero il verbo abilitato
-    if risposta.status != 405:
+    # se il codice non è compreso tra 405, 404, 403 o 501, considero il verbo abilitato
+    if risposta.status not in [405, 404, 403, 501]:
         abilitati.append(verbo)
     conn.close()
 
