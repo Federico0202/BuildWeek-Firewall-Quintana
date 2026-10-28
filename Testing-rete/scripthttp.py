@@ -9,8 +9,8 @@ verbi = ["GET", "POST", "PUT", "DELETE"]
 abilitati = []
 # ciclo for (ripetizione per ogni verbo della lista)
 for verbo in verbi:
-    # apro una connessione IP verso la porta 80, con attesa massima di 5 secondi
-    conn = http.client.HTTPConnection(ip, 80, timeout=5)
+    # apro una connessione IP verso la porta 80, con attesa massima di 2 secondi
+    conn = http.client.HTTPConnection(ip, 80, timeout=2)
     # mando al server la richiesta con il verbo
     conn.request(verbo, path)
     risposta = conn.getresponse()
