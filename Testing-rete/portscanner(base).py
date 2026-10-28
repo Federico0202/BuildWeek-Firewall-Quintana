@@ -35,15 +35,15 @@ for port in range((lowport), (highport) + 1):
     # chiude il socket
     s.close()
     # controlla la situazione della porta confrontando gli errori (nr errori)
+    # 1o nr linux, 2o nr windows
     if status == 0:
         result = "aperta"
-    elif status == socket.errno.ECONNREFUSED: #111
+    elif status in (111, 10061):
         result = "chiusa"
-    # sia etimedout che eagain causa settimeout usato prima, altrimenti e' else
-    elif status in (socket.errno.ETIMEDOUT, socket.errno.EAGAIN): #11
+    elif status in (11, 10035):
         result = "timeout, forse filtrata dal firewall"
     else:
-        print(f"Connessione fallita con codice: {status}")
+        result = f"Connessione fallita con codice: {status}"
 
     # stampa esito dello scan della porta
-    print(f"La porta {port} è¨: {result}.")
+    print(f"Lo stato della porta {port} è: {result}.")
