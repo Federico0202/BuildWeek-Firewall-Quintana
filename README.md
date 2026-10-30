@@ -34,7 +34,7 @@ Ecco i requisiti e i componenti necessari:
 
 ---
 
-## 🧪 Testing della Rete
+## 🌐 Testing della Rete
 
 Per concludere il progetto, effettueremo una serie di test sulla rete implementata. I test includeranno:
 
