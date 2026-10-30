@@ -54,7 +54,7 @@ Questo approccio garantirà che l'infrastruttura di rete della compagnia Theta s
 
 ---
 
-## ⚙️ Linee guida per la risoluzione del progetto:
+## ⚙️ Linee guida per la risoluzione del progetto
 
 * Il Web Server di Theta verrà simulato dalla macchina Metasploitable
 * Per la scansione dei servizi, non è possibile utilizzare i tool già pronti. Lo studente dovrà dunque scrivere in linguaggio Python un scanner che accetti in input un IP ed un range di porte da scansionare (la programmazione fa parte dell’esercizio). L’output del programma dovrà essere una lista delle porte con relativo stato (aperta/chiusa).
@@ -64,7 +64,7 @@ Questo approccio garantirà che l'infrastruttura di rete della compagnia Theta s
 
 ---
 
-## 🚀 Bonus:
+## 🚀 Bonus
 
 1. Eseguire il subnetting per scegliere la subnet più appropriata per la rete.
 2. Creare un programma in python che catturi il socket di rete.
