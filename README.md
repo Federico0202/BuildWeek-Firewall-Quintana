@@ -68,3 +68,17 @@ Questo approccio garantirà che l'infrastruttura di rete della compagnia Theta s
 
 1. Eseguire il subnetting per scegliere la subnet più appropriata per la rete.
 2. Creare un programma in python che catturi il socket di rete.
+
+---
+
+## 👥 Team di Progetto e Contributi
+
+La squadra **Firewall Quintana** ha collaborato alla realizzazione del progetto di rete per la compagnia Theta suddividendo i compiti come segue[cite: 6]:
+
+* **Federico Capranica e Riccardo Alessandro**: ([@Federico0202](https://github.com/Federico0202) ([@riccardoalessandro27](https://github.com/riccardoalessandro27)): * 📄 `Testing-rete/scripthttp.py` — Script Python per la verifica dei verbi HTTP.
+* **Alessandro Reinaudi**: ([@alessandroreinaudi](https://github.com/alessandroreinaudi)): * 📄 `Rete-Aziendale/bozza lavoro cisco.2 (2) (1).pkt` — File di simulazione e topologia della rete su Cisco Packet Tracer.
+* **Renato Bozzuffi**: ([@Renato1395](https://github.com/Renato1395)) * 📄 `Rete-Aziendale/bozza lavoro cisco.2 (2) (1).pkt` — File di simulazione e topologia della rete su Cisco Packet Tracer.
+* **Stefano Sinacori**: * 📄 `Testing-rete/portscanner(base).py` — Codice sorgente per lo scanner delle porte.
+  * 📄 `Report-Finale/scan_output.txt` — File di output con i risultati della scansione delle porte.
+* **Flavio Salvato**: Elaborazione del *Preventivo* e del *Preventivo Finale* dell'infrastruttura.
+* **Lavoro di Gruppo (Tutti)** * 📄 `Report-Finale/Progetto Build Week 1.pdf` — Documentazione completa, progettazione e stesura del report finale per la compagnia Theta.
