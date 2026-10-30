@@ -73,7 +73,7 @@ Questo approccio garantirà che l'infrastruttura di rete della compagnia Theta s
 
 ## 👥 Team di Progetto e Contributi
 
-La squadra **Firewall Quintana** ha collaborato alla realizzazione del progetto di rete per la compagnia Theta suddividendo i compiti come segue[cite: 6]:
+La squadra **Firewall Quintana** ha collaborato alla realizzazione del progetto di rete per la compagnia Theta suddividendo i compiti come segue:
 
 * **Federico Capranica e Riccardo Alessandro**: ([@Federico0202](https://github.com/Federico0202) ([@riccardoalessandro27](https://github.com/riccardoalessandro27)): * 📄 `Testing-rete/scripthttp.py` — Script Python per la verifica dei verbi HTTP.
 * **Alessandro Reinaudi**: ([@alessandroreinaudi](https://github.com/alessandroreinaudi)): * 📄 `Rete-Aziendale/bozza lavoro cisco.2 (2) (1).pkt` — File di simulazione e topologia della rete su Cisco Packet Tracer.
